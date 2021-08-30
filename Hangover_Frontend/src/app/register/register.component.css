@@ -1,0 +1,19 @@
+.reg{
+    width:400px; 
+    margin: auto;
+    display: block;
+    padding: 30px;
+  }
+body{background-image: 'url("E:/AngularFold/hangover/src/assets/Chicken tikka.jpg")';}
+.fontcolor{
+  color: white;
+}
+  .margin{
+    padding-left: 500px;
+    padding-right: 504px;
+    margin-top: 50px;
+  }
+ 
+  .radio-margin{
+    margin-left: 7px;
+  }

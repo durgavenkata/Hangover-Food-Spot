@@ -1,0 +1,29 @@
+.btn{
+    background: rgb(94,0,0);
+    border-radius:50%;
+    font-size:16px;
+    color:#fff;
+    margin:0 8px;
+}
+.content span{
+    font-weight: 800;
+    font-size:18px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  img{
+    height: 270px;
+  }

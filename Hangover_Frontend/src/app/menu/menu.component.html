@@ -1,0 +1,40 @@
+<style>
+    input[type=submit] {
+      background-color: #aa3304;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: #1631c9;
+      }
+    </style>
+  <section class="menu">
+  <div class="containers">
+      <div class ="title">
+        <h1><span>Hang</span> Over</h1>
+        <p> Our Available Items</p>
+          
+      </div>
+      <div class="container text-center">
+          <div class="col-md-3" *ngFor="let menu of menuArray">
+          <div class="menu-image">
+          <img src="{{menu.img}}" alt="P1">
+         </div>
+         <div class="content">
+         <h4>{{menu.amt}}</h4>
+        <button type="button" class="btn" (click)="inc(menu)"><i class="fa fa-plus"></i></button>
+        <span>{{menu.qnt}}</span>
+        <button type="button" class="btn"(click)="dec(menu)"><i class="fa fa-minus"></i></button>
+             </div>
+             <button type="button" class="orders_btn" (click)="Orders(menu)">Add To order</button>
+           </div>
+      </div>
+      </div>
+      
+       
+        
+            
+  </section>
